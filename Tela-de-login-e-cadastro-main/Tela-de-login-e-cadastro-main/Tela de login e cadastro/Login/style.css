@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:#000000;
+}
+.container {
+    display: flex;
+    width: 100%;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.left {
+    flex: 1;
+    background: url('imagem1.jpeg') no-repeat center center/cover;
+    padding: 320px;
+}
+.right {
+    flex: 10;
+    padding: 70px;
+}
+h2 {
+    text-align:center;
+    margin-bottom: 70px;
+}
+.input-box {
+    position: relative;
+}
+.input-box i {
+    position: absolute;
+    left: 49px;
+    top: 43px;
+    color: #909090;
+}
+.input-box input {
+    width: 90%;
+    padding: 12px 12px 12px 50px;
+    border: 3px solid ;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: #d0d0d0;
+    margin: 30px;
+}
+.input-box input:focus {
+    border-color: #4070f4;
+    outline: none;
+}
+.btn {
+    width: 90%;
+    padding: 12px;
+    margin-top: 90px;
+    border: none;
+    border-radius: 5px;
+    background: #000000;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 30px
+}
+.btn:hover {
+    background: #365eab;
+}
+.checkbox-wrapper-15 {
+    display: flex;
+    margin-left: 29px;
+    margin-top: -20px;
+}
+
+.esqueci-senha {
+    position: absolute;
+    font-size: 14px;
+    text-align:right;
+    margin-top: -20px;
+    cursor: pointer;
+    left: 1000px;
+}
+
+.nao-tem-conta {
+    position: absolute;
+    font-size: 20px;
+    text-align:center;
+    margin-top: 20px;
+    cursor: pointer;
+    margin: 30px;
+}
